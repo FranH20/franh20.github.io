@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "delete:docs": "del docs",
     "copy:dist": "copyfiles dist/* ./docs -f"
+
   },
   "dependencies": {
     "react": "^18.2.0",
