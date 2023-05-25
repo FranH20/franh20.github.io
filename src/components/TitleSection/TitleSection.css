@@ -1,0 +1,22 @@
+.titleSection {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.titleSection__title {
+    color: var(--text-secondary-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titleSection__subtitle {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1020px) {
+    .titleSection {
+        text-align: left;
+    }
+}

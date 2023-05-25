@@ -1,0 +1,36 @@
+.footer {
+    background-color: var(--secondary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.footer__container {
+    width: 100%;
+    max-width: var(--size-container);
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 5rem 2rem;
+    text-align: center;
+    gap: 1.5rem;
+    align-items: center;
+}
+.footer__copyright {
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 300px;
+}
+.footer__social {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+    .footer__container {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .footer__copyright {
+        text-align: left;
+        width: auto;
+    }
+}

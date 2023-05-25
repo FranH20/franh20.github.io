@@ -1,0 +1,62 @@
+
+.navigatorFull {
+  background-color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 25px 30px 25px 30px;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navigatorFull__name {
+  font-weight: bold;
+  font-size: 1.17em;
+}
+
+.navigatorFull__openNavigator {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.navigatorList {
+  display: none;
+}
+
+.responseNavigator {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .navigatorList {
+    margin: 0; padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  .navigatorList li {
+    list-style: none;
+  }
+
+  .navigatorList li a {
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+  }
+  .navigatorList li a:hover {
+    color: var(--text-secondary-color);
+  }
+
+  .navigatorFull__iconButton {
+    display: none;
+  }
+}

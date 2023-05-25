@@ -1,0 +1,65 @@
+[
+    {
+        "id": "KmMjp0G9L0cF",
+        "image": "concurso_img.png",
+        "title": "Project contest system 🗳️",
+        "description": "Comprehensive system for automation and analysis of documents using natural language processing (NLP) to facilitate project competition management. Our main focus was to assist students in the development of their documentation, ensuring plagiarism-free content through NLP-based comparison with previous works.",
+        "skills": ["ReactJs", "FastAPI", "MongoDB"],
+        "links": [
+            {
+                "id": "1orvxnV0AtXf",
+                "title": "Code",
+                "icon": "FaGithub",
+                "link": ""
+            },
+            {
+                "id": "RmC6OTIWRKUA",
+                "title": "Live demo",
+                "icon": "FaExternalLinkAlt",
+                "link": "https://youtu.be/rPLiCYF8WGw?t=9956"
+            }
+        ]
+    },
+    {
+        "id": "39AHiCQwFSCB",
+        "image": "multirisas_img.png",
+        "title": "MultiRisas App 🦷",
+        "description": "Dentistry mobile application for MultiRisas, focused on providing personalized care and guidance to patients. The objective was to improve the quality of services through a mobile app that allowed patients to access information about available services, schedule appointments, receive oral health advice, and access their medical history, among other features.",
+        "skills": ["Android Studio", "Java 8", "Firebase"],
+        "links": [
+            {
+                "id": "hpIyWtN0tNEK",
+                "title": "Code",
+                "icon": "FaGithub",
+                "link": ""
+            },
+            {
+                "id": "PC74p0Bp6ej9",
+                "title": "Live demo",
+                "icon": "FaExternalLinkAlt",
+                "link": "https://youtu.be/Z8GYWTRMUfI?t=14960"
+            }
+        ]
+    },
+    {
+        "id": "EQ2XYYkfFXTA",
+        "image": "pizzeria_img.png",
+        "title": "Pizzeria Don Remolo 🍕",
+        "description": "Backend of the food menu for a pizzeria called 'Don Remolo' where you can order online through whatsapp.",
+        "skills": ["Spring Boot", "Java", "Mysql", "JWT"],
+        "links": [
+            {
+                "id": "rdeUzjQRI1gA",
+                "title": "Code",
+                "icon": "FaGithub",
+                "link": "https://github.com/FranH20/pizzeria-don-remolo"
+            },
+            {
+                "id": "CsgRz1sXXYqw",
+                "title": "Live demo",
+                "icon": "FaExternalLinkAlt",
+                "link": ""
+            }
+        ]
+    }
+]

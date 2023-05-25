@@ -1,0 +1,15 @@
+@import url(assets/styles/normalize.css);
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  --primary-color: #F9F9F9;
+  --secondary-color: #2d2e32;
+  --text-color: #767676;
+  --text-secondary-color:#147efb;
+  --size-window-large: 900px;
+  --size-container: 1000px;
+  
+}

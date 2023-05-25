@@ -1,0 +1,33 @@
+.responsiveNavigator {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  transition: all 0.3s;
+  z-index: 200;
+}
+
+.responsiveNavigator li {
+  list-style: none;
+}
+
+.responsiveNavigator li a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+.responsiveNavigator--closed {
+  overflow: hidden;
+  opacity: 1;
+  transition: all 0.3s;
+  width: 0;
+}
