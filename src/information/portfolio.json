@@ -61,5 +61,26 @@
                 "link": ""
             }
         ]
+    },
+    {
+        "id": "tGzO2hR9qAzW",
+        "image": "frases_img.png",
+        "title": "Phrase Generator 💬",
+        "description": "Website where you can get famous citation APIs collected by different RestApis and create your own citations by setting by your personal preferences.",
+        "skills": ["ReactJs", "Tailwind", "Redux"],
+        "links": [
+            {
+                "id": "HnL8tNThqFdO",
+                "title": "Code",
+                "icon": "FaGithub",
+                "link": "https://github.com/FranH20/quotes-generator"
+            },
+            {
+                "id": "IVRxvqNKcNgS",
+                "title": "Live demo",
+                "icon": "FaExternalLinkAlt",
+                "link": "https://quotes-generator-sigma-six.vercel.app/"
+            }
+        ]
     }
 ]
