@@ -1,0 +1,35 @@
+.componentProject {
+  max-width: 20rem;
+  background-color: white;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.componentProject img {
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+.componentProject p {
+    color: var(--text-color);
+}
+.componentProject p a:first-child {
+    margin-right: .5rem;
+}
+.componentProject p a {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: black;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+.componentProject p a:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: var(--secondary-color);
+}

@@ -20,3 +20,10 @@
     width: 100%;
 }
 
+.project__components {
+    padding-top: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}

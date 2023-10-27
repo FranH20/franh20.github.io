@@ -1,0 +1,18 @@
+[
+    {
+        "id": "r1t32gfd31q",
+        "title": "Credit card details form",
+        "image": "creditcard_img.png",
+        "description": "This is an interactive card details form.",
+        "codeLink": "https://github.com/FranH20/interactive-card-details-form",
+        "viewLink": "https://franh20.github.io/interactive-card-details-form/"
+    },
+    {
+        "id": "t26hj5iuj52",
+        "title": "Product preview card component",
+        "image": "preduct_preview_img.png",
+        "description":"This is an product pewview card.",
+        "codeLink": "https://github.com/FranH20/Product-preview-card-component",
+        "viewLink": "https://franh20.github.io/Product-preview-card-component/"
+    }
+]
