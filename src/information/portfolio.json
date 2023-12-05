@@ -82,5 +82,26 @@
                 "link": "https://quotes-generator-sigma-six.vercel.app/"
             }
         ]
+    },
+    {
+        "id": "tGzO2hR9qAzW",
+        "image": "ecommerce_img.png",
+        "title": "Ecommerce Firebase ",
+        "description": "I am working on an eCommerce designed in Figma to pass into code to improve my skills with new technologies to be able to get a job.",
+        "skills": ["ReactJs", "NextJs", "Tailwind", "Redux", "Figma"],
+        "links": [
+            {
+                "id": "HnL8tNThqFdO",
+                "title": "Code",
+                "icon": "FaGithub",
+                "link": "https://github.com/FranH20/ecommerce-furniture-app"
+            },
+            {
+                "id": "IVRxvqNKcNgS",
+                "title": "Live demo",
+                "icon": "FaExternalLinkAlt",
+                "link": "https://ecommerce-furniture-app.vercel.app/"
+            }
+        ]
     }
 ]
