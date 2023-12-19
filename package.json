@@ -11,7 +11,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "delete:docs": "del docs",
-    "copy:dist": "copyfiles dist/* ./docs -f"
+    "copy:dist": "copyfiles dist/* dist/assets/* dist/images/* ./docs -f"
   },
   "dependencies": {
     "react": "^18.2.0",
